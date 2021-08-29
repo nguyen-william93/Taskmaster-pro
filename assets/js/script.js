@@ -49,17 +49,19 @@ $(".list-group").on("click","p", function(){
   var text = $(this)
     .text()
     .trim();
+
   var textInput = $("<textarea>")
     .addClass("form-control")
     .val(text);
+
   $(this).replaceWith(textInput);
   textInput.trigger("focus");
 });
 
 $(".list-group").on("blur","textarea", function(){
   var text = $(this)
-  .val()
-  .trim();
+    .val()
+    .trim();
 
   var status = $(this)
     .closest(".list-group")
