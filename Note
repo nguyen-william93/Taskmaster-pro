@@ -1,0 +1,6 @@
+jqurey.min.js --> provide a powerful function represented by $ character
+
+CDN -- content delivery network -- hosts files such as a public service to make loading these resources faster and easier
+    load all functionality that are predefined in this file. and jquery.min.js provided powerful function represent by $
+
+jquery -- provides a shorter methods to find and manipulate DOM element and other common javascript task
