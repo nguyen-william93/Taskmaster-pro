@@ -128,7 +128,7 @@ $(".list-group").on("change", "input[type='text']", function(){
   
   $(this).replaceWith(taskSpan);
 
-  auditTask($(taskSpan)).closest(".list-group-item");
+  auditTask($(taskSpan).closest(".list-group-item"));
 
 });
 
